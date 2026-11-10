@@ -5,9 +5,9 @@
 # and differs byte-wise from any local ./build.sh output (gzip timestamps).
 #   curl -L <asset-url> | shasum -a 256
 cask "kindle-widget" do
-  version "0.1.1"
+  version "0.2.0"
 
-  sha256 "23f12bec3aa9eec8883f9df419e62dddaaf3e2aaa47e07de69538c999401fa40"
+  sha256 "2f4f978f23d14c961974a6e307a77cc15f878da3e424560bfa4894d31a55c596"
 
   url "https://github.com/fazil-syed/kindle-widget/releases/download/v#{version}/kindle-widget_#{version}_Darwin_all.tar.gz"
   homepage "https://github.com/fazil-syed/kindle-widget"
